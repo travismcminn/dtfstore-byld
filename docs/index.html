@@ -6,30 +6,6 @@
   <title>DTF Store x BYLD Finance</title>
   <link rel="icon" type="image/png" href="https://cdn.shopify.com/s/files/1/0878/0608/3384/files/byld_logo_square.png">
   <style>
-    .byld-wrapper * {
-      box-sizing: border-box !important;
-      font-family: inherit !important;
-    }
-    .byld-wrapper p,
-    .byld-wrapper span,
-    .byld-wrapper strong {
-      font-size: 0.85rem !important;
-      line-height: 1.4 !important;
-      margin: 0 !important;
-    }
-    .review-block {
-      width: 33%;
-      padding: 12px;
-      box-sizing: border-box;
-      background: #ffffff;
-      border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-    }
-    .review-flex {
-      display: flex;
-      gap: 12px;
-      flex-wrap: nowrap;
-    }
     @media (max-width: 1024px) {
       .byld-flex-wrap {
         flex-direction: column !important;
@@ -61,63 +37,86 @@
         border-radius: 0 !important;
       }
     }
+    .estimator-term-row {
+      padding: 6px 0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .estimator-term-row:last-child {
+      border-bottom: none;
+    }
+    .estimator-slider:hover {
+      cursor: pointer;
+    }
+    .review-block {
+      width: 33%;
+      padding: 12px;
+      box-sizing: border-box;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    }
+    .review-flex {
+      display: flex;
+      gap: 12px;
+      flex-wrap: nowrap;
+    }
   </style>
 </head>
 <body style="margin: 0; font-family: sans-serif;">
-  <div class="byld-wrapper">
-    <div style="max-width: 1100px; margin: 0 auto;">
-      <div style="display: flex;">
-        <div class="co-brand-bar" style="width: 50%; display: flex; justify-content: center; align-items: center; margin-bottom: 12px; gap: 12px; margin-left: 0;">
-          <img src="https://cdn.shopify.com/s/files/1/0878/0608/3384/files/dtf-store-powered-cbs.png?v=1749840573" alt="DTF Store" style="max-height: 48px; height: auto;">
-        </div>
+  <div style="max-width: 1100px; margin: 0 auto;">
+    <div style="display: flex;">
+      <div class="co-brand-bar" style="width: 50%; display: flex; justify-content: center; align-items: center; margin-bottom: 12px; gap: 12px; margin-left: 0;">
+        <img src="https://cdn.shopify.com/s/files/1/0878/0608/3384/files/dtf-store-powered-cbs.png?v=1749840573" alt="DTF Store" style="max-height: 48px; height: auto;">
+        <span style="font-weight: 500; font-size: 0.9rem; color: #444;">With Financing Powered By</span>
+        <img src="https://cdn.shopify.com/s/files/1/0878/0608/3384/files/powered-by-5.webp?v=1749246609" alt="BYLD Finance" style="max-height: 48px; height: auto;">
+      </div>
+    </div>
+  </div>
+
+  <div class="byld-flex-wrap" style="display: flex; flex-wrap: nowrap; gap: 20px; align-items: stretch; max-width: 1100px; margin: 0 auto;">
+    <div class="byld-col" style="width: 50%; display: flex; flex-direction: column;">
+      <div style="background: #f9f9f9; border-radius: 16px; padding: 16px 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); display: flex; flex-direction: column; justify-content: center;">
+        <iframe
+          src="https://form.jotform.com/251635820437154"
+          title="Apply for Financing - BYLD Finance"
+          width="100%"
+          style="min-height: 700px; aspect-ratio: 1 / 1.25; border: none; border-radius: 12px; background: #f9f9f9;"
+          frameborder="0"
+          scrolling="no"
+          allowtransparency="true"
+          allow="geolocation; microphone; camera; fullscreen; payment"
+        ></iframe>
       </div>
     </div>
 
-    <div class="byld-flex-wrap" style="display: flex; flex-wrap: nowrap; gap: 20px; align-items: stretch; max-width: 1100px; margin: 0 auto;">
-      <div class="byld-col" style="width: 50%; display: flex; flex-direction: column;">
-        <div style="background: #f9f9f9; border-radius: 16px; padding: 16px 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); display: flex; flex-direction: column; justify-content: center;">
-          <iframe
-            src="https://form.jotform.com/251635820437154"
-            title="Apply for Financing - BYLD Finance"
-            width="100%"
-            style="min-height: 700px; aspect-ratio: 1 / 1.25; border: none; border-radius: 12px; background: #f9f9f9;"
-            frameborder="0"
-            scrolling="no"
-            allowtransparency="true"
-            allow="geolocation; microphone; camera; fullscreen; payment"
-          ></iframe>
-        </div>
-      </div>
-
-      <div class="byld-col byld-wrapper" style="width: 50%; display: flex; flex-direction: column; justify-content: space-between; border-radius: 16px; background: #f9f9f9; box-shadow: 0 2px 6px rgba(0,0,0,0.08); padding: 16px 20px;">
-        <div>
-          <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px;">
-            <img src="https://cdn.shopify.com/s/files/1/0878/0608/3384/files/charlie_newest_headshot.png?v=1749240989" alt="Charlie McMinn" style="border-radius: 50%; width: 72px; height: 72px; object-fit: cover;">
-            <div>
-              <h4 style="margin: 0; color: #3f4d4d;">Questions ❓</h4>
-              <p style="margin: 4px 0 8px 0; font-size: 0.95rem;"><strong>Charlie McMinn</strong>, BYLD Finance</p>
-              <a href="mailto:charlie@byldfinance.com" style="text-decoration: none; color: #3f4d4d; font-size: 0.9rem;">📧 charlie@byldfinance.com</a><br>
-              <a href="tel:6129780728" style="text-decoration: none; color: #3f4d4d; font-size: 0.9rem;">📞 612-978-0728</a>
-            </div>
-          </div>
-          <hr style="border: none; border-top: 1px solid #dcdcdc; margin: 0 0 16px 0;">
+    <div class="byld-col byld-wrapper" style="width: 50%; display: flex; flex-direction: column; justify-content: space-between; border-radius: 16px; background: #f9f9f9; box-shadow: 0 2px 6px rgba(0,0,0,0.08); padding: 16px 20px;">
+      <div>
+        <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 16px;">
+          <img src="https://cdn.shopify.com/s/files/1/0878/0608/3384/files/charlie_newest_headshot.png?v=1749240989" alt="Charlie McMinn" style="border-radius: 50%; width: 72px; height: 72px; object-fit: cover;">
           <div>
-            <h4 style="margin-top: 0; color: #3f4d4d;">🧮 Estimate Your Monthly Payment</h4>
-            <label for="equipmentSlider" style="display: block; margin-bottom: 6px; color: #3f4d4d; font-size: 0.9rem;">
-              Equipment Cost: <span id="equipmentValue">$50,000</span>
-            </label>
-            <input type="range" id="equipmentSlider" min="5000" max="250000" step="1000" value="50000" class="estimator-slider" style="width: 100%; margin-bottom: 12px;">
-            <div id="paymentResults" style="color: #3f4d4d; font-size: 0.95rem;"></div>
-            <div style="margin-top: 16px;">
-              <h5 style="margin-bottom: 8px; font-size: 0.95rem; color: #3f4d4d;">What Customers Are Saying:</h5>
-              <div id="byld-reviews" class="review-flex" style="min-height: 80px;"></div>
-            </div>
+            <h4 style="margin: 0; color: #3f4d4d;">Questions ❓</h4>
+            <p style="margin: 4px 0 8px 0; font-size: 0.95rem;"><strong>Charlie McMinn</strong>, BYLD Finance</p>
+            <a href="mailto:charlie@byldfinance.com" style="text-decoration: none; color: #3f4d4d; font-size: 0.9rem;">📧 charlie@byldfinance.com</a><br>
+            <a href="tel:6129780728" style="text-decoration: none; color: #3f4d4d; font-size: 0.9rem;">📞 612-978-0728</a>
           </div>
         </div>
-        <p style="font-size: 0.75rem; color: #6a7a7a; margin: 16px 0 0 0;">
-          *Estimated payments are based on standard lease factors and are for illustration only. Actual terms may vary based on credit.
-        </p>
+        <hr style="border: none; border-top: 1px solid #dcdcdc; margin: 0 0 16px 0;">
+        <div>
+          <h4 style="margin-top: 0; color: #3f4d4d;">🧮 Estimate Your Monthly Payment</h4>
+          <label for="equipmentSlider" style="display: block; margin-bottom: 6px; color: #3f4d4d; font-size: 0.9rem;">
+            Equipment Cost: <span id="equipmentValue">$50,000</span>
+          </label>
+          <input type="range" id="equipmentSlider" min="5000" max="250000" step="1000" value="50000" class="estimator-slider" style="width: 100%; margin-bottom: 12px;">
+          <div id="paymentResults" style="color: #3f4d4d; font-size: 0.95rem;"></div>
+          <div style="margin-top: 16px;">
+            <h5 style="margin-bottom: 8px; font-size: 0.95rem; color: #3f4d4d;">What Customers Are Saying:</h5>
+            <div id="byld-reviews" class="review-flex" style="min-height: 80px;"></div>
+          </div>
+        </div>
       </div>
+      <p style="font-size: 0.75rem; color: #6a7a7a; margin: 16px 0 0 0;">
+        *Estimated payments are based on standard lease factors and are for illustration only. Actual terms may vary based on credit.
+      </p>
     </div>
   </div>
 
@@ -187,3 +186,4 @@
   </script>
 </body>
 </html>
+
